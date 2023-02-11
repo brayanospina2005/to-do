@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var TaskStatus = /*#__PURE__*/(() => {\n  (function (TaskStatus) {\n    TaskStatus[TaskStatus[\"Active\"] = 1] = \"Active\";\n    TaskStatus[TaskStatus[\"Done\"] = 2] = \"Done\";\n  })(TaskStatus || (TaskStatus = {}));\n  return TaskStatus;\n})();","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

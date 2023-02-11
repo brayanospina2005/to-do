@@ -1,0 +1,23 @@
+.task-container{
+    background-color: #f33b3b;
+    margin-top: 1rem;
+}
+.task-item{
+    color: white;
+}
+
+.list-item-container{
+    display: flex;
+}
+
+.task-item-container{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+}
+
+.strike{
+    text-decoration: line-through;
+}

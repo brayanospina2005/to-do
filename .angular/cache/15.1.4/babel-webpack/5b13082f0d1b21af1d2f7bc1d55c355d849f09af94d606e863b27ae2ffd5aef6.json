@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { TaskStatus } from '../enum/enum';\nimport { Guid } from \"guid-typescript\";\nexport class Task {\n  constructor(title) {\n    this.title = title;\n    this.status = TaskStatus.Active;\n    this.id = Guid.create();\n  }\n}","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

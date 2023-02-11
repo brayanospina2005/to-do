@@ -1,0 +1,5 @@
+<form [formGroup]="taskForm" autocomplete="off">
+    <mat-form-field class="full-width">
+        <input (keyup.enter)="onKeyPress($event)" formControlName="taskTitle" matInput type="text" value="" placeholder="Escribe algo">
+    </mat-form-field>
+</form>
